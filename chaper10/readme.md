@@ -1,4 +1,5 @@
-# 单布执行和跟踪函数调用
+# chapter 10
+## 单步执行和跟踪函数调用
 
 ```c
 #include <stdio.h>
@@ -77,3 +78,5 @@ p sum
 set var sum=0
 ```
 
+
+## 断点
