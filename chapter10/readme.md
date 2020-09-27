@@ -80,3 +80,31 @@ set var sum=0
 
 
 ## 断点
+
+display : 每次停下来都现实值
+```shell
+display sum
+```
+undisplay 取消跟踪
+
+设置断点 break命令（简写为b）
+```shell
+b 9
+```
+break命令的参数也可以是函数名，表示在某一个函数开头设断点
+
+**使用continue指令连续运行（简写c），程序遇到断点自动停下**
+
+i breakpoints 显示设置的断点
+
+停用断点 
+```shell
+disable breakpoints 3
+```
+启用
+```shell
+enable breakpoints 2
+```
+删除断点
+```shell
+delete breakpoints
