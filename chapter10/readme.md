@@ -133,3 +133,9 @@ watch i
 ```shell
 delete breakpoints 4
 ```
+
+段错误
+```shell
+r
+```
+遇到段错误停止
