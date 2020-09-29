@@ -108,3 +108,28 @@ enable breakpoints 2
 删除断点
 ```shell
 delete breakpoints
+```
+## 观察点
+x命令打印存储器中的内容
+```shell
+x/7b
+```
+7b是打印格式，b表示每个字节一组，7表示7组
+
+条件断点设置
+```shell
+b 12 if i == 4
+```
+当i==4时在12行打断点
+
+watch观察点进行跟踪，当程序访问某一内存单元时中断
+```shell
+watch i
+```
+使用c继续
+当i发生变化时中断
+
+删除断点
+```shell
+delete breakpoints 4
+```
