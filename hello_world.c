@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /* main: generate some simple outputs */
+typedef char *STR;
 
 int main(void)
 {
-    printf("Hello, world.\n");
+    STR str = "Hello, world.\n";
+    printf(str);
     return 0;
 }
